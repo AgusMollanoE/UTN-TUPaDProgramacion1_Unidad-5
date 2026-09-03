@@ -21,6 +21,9 @@ for i in range(10):
 
 print(f"La lista completa de notas es: {notas}")
 
+for i in range(nota[i]):
+    print(f" con for :{nota[i]}")
+
 promedio = sum(notas) / len(notas)
 print(f"El promedio de las notas es: {promedio:.2f}")
 
