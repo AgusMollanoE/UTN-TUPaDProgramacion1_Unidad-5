@@ -4,7 +4,6 @@ print("======================================================")
 print("   EJERCICIO N°3 - LISTA DE NÚMEROS ENTEROS AL AZAR   ")
 print("------------------------------------------------------")
 
-
 #3) Generar una lista con 15 números enteros al azar entre 1 y 100.
 # ● Crear una lista con los pares y otra con los impares.
 # ● Mostrar cuántos números tiene cada lista.
@@ -27,8 +26,9 @@ for numero in num:
     if numero % 2 == 0:
         pares.append(numero)
     else:
-        impares.append(numero)    
-print("------------------------------------------")  
+        impares.append(numero)
+
+print("\n------------------------------------------")  
 print(f"Lista de números pares: {pares}")
 print(f"Cantidad de números pares: {len(pares)}")
 print("------------------------------------------")

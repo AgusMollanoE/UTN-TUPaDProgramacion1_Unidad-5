@@ -4,7 +4,6 @@ print("========================================================")
 print("             EJERCICIO N°7 - TEMPERATURAS               ")
 print("--------------------------------------------------------")
 
-
 #7) Crear una matriz (lista anidada) de 7x2 con las temperaturas mínimas y máximas de
 # una semana.
 # ● Calcular el promedio de las mínimas y el de las máximas.
@@ -12,14 +11,18 @@ print("--------------------------------------------------------")
 
 dias_semana = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
 temperaturas = [
-                [15, 25], #lunes
-                [17, 28], #martes
-                [15, 23], #miércoles
-                [20, 30], #jueves
-                [18, 27], #viernes
-                [16, 26], #sábado
-                [19, 29], #domingo
+                [15, 25], #Lunes
+                [17, 28], #Martes
+                [15, 23], #Miércoles
+                [20, 30], #Jueves
+                [18, 27], #Viernes
+                [16, 26], #Sábado
+                [19, 29], #Domingo
                 ]
+
+print("\n---------------Temperaturas de la semana----------------")
+for i in range(len(temperaturas)):
+    print(f"{dias_semana[i]} - Mínima: {temperaturas[i][0]}°C, Máxima: {temperaturas[i][1]}°C")
 
 suma_minimas = 0
 suma_maximas = 0

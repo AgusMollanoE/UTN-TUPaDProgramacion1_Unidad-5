@@ -5,7 +5,6 @@ print("========================================================")
 print("             EJERCICIO N°8 - NOTAS                      ")
 print("--------------------------------------------------------")
 
-
 #8) Crear una matriz con las notas de 5 estudiantes en 3 materias.
 # ● Mostrar el promedio de cada estudiante.
 # ● Mostrar el promedio de cada materia.
@@ -16,7 +15,7 @@ notas = []
 
 # En este primer for se pide al Usuario que ingrese los nombres de cada estudiante
 for i in range(5):
-    nombre = input(f"Ingrese el Nombre del estudiante {i + 1}: ").strip()
+    nombre = input(f"Ingrese el nombre del estudiante {i + 1}: ").strip()
     estudiantes.append(nombre)
 print(f"Estudiantes: {estudiantes}")
 
@@ -24,11 +23,11 @@ print(f"Estudiantes: {estudiantes}")
 # que carge las tres notas correspondientes.
 
 for j in range(5):
-    print(f"\nCargando nota del Alumno: {estudiantes[j]} ")
+    print(f"\nCargando nota del alumno: {estudiantes[j]} ")
     fila_estudiante = []
     
     for k in range(3):
-        nota = float(input(f"Ingrese Nota de {materias[k]}: "))
+        nota = float(input(f"Ingrese nota de {materias[k]}: "))
         fila_estudiante.append(nota)
 
     notas.append(fila_estudiante)

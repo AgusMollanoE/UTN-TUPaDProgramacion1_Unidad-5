@@ -12,22 +12,22 @@ print("--------------------------------------------------")
 notas = []
 
 for i in range(10):
-    nota = float(input(f"Ingrese la nota del estudiante {i + 1}: "))
+    nota = float(input(f"Ingrese la nota del estudiante Nro. {i + 1}: "))
     
     while nota < 0 or nota > 10:
         print("Error: La nota debe estar entre 0 y 10.")
-        nota = float(input(f"Ingrese una nota válida para el estudiante {i + 1}: "))
+        nota = float(input(f"Ingrese una nota válida para el estudiante Nro. {i + 1}: "))
     notas.append(nota)
 
-print(f"La lista completa de notas es: {notas}")
+print(f"\nLa lista completa de notas de los estudiantes es: {notas}\n")
 
-for i in range(nota[i]):
-    print(f" con for :{nota[i]}")
+for i in range(len(notas)):
+    print(f"La nota del estudiante Nro. {i + 1} es: {notas[i]}")
 
 promedio = sum(notas) / len(notas)
-print(f"El promedio de las notas es: {promedio:.2f}")
+print(f"\nEl promedio de las notas es: {promedio:.2f}")
 
 nota_maxima = max(notas)
 nota_minima = min(notas)
-print(f"La nota más alta es: {nota_maxima}")
+print(f"\nLa nota más alta es: {nota_maxima}")
 print(f"La nota más baja es: {nota_minima}")

@@ -5,7 +5,6 @@ print("========================================================")
 print("             EJERCICIO N°9 - TATETI                     ")
 print("--------------------------------------------------------")
 
-
 #Representar un tablero de Ta-Te-Ti como una lista de listas (3x3).
 # ● Inicializarlo con guiones "-" representando casillas vacías.
 # ● Permitir que dos jugadores ingresen posiciones (fila, columna) para colocar "X" o "O".
